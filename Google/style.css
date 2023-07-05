@@ -1,0 +1,115 @@
+.menu_item{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    position: relative;
+    bottom: 8px;
+}
+
+
+#icon-user{
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    padding-left: 15px; 
+    padding-right: 10px;
+}
+nav{
+    text-align: right;
+    padding: 13px;
+}
+body{
+    margin: 0;
+}
+#dropdown-menu{
+    padding-left: 30px;
+    position: relative;
+}
+#dropdown-wrapper{
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute;
+    right: 88px;
+    top: 40px;
+    display: none;
+    }
+.material-icons{
+    padding-left: 15px;
+}
+
+#google{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#search{
+    width: 582px;
+    font-size: 13px;
+    border-radius: 24px;
+    margin-top: 0px;
+    border: 1px solid #dfe1e5;
+    color: #222;
+    padding: 14px;
+
+}
+#search-bar{
+    margin-top: 50px;
+    text-align: center;
+}
+#search:hover:focus{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);}
+#search-bar > img{
+    position: relative;
+    bottom: -12px;
+    right: 55px;
+    height: 32px;
+    
+}
+#buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.boutton{
+    margin:20px;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 32px;
+    opacity: 0.7;
+    border: 1px solid transparent;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+
+}
+.boutton:hover{
+    opacity: 0.9;
+}
+    
+    
+    
+.dropdown-content > img{
+    width: 50px;
+    height: 50px;
+}
+.dropdown-content{
+    display: inline-block;
+    padding: 13px;
+}
+
+
+#drop:hover #dropdown-wrapper{
+    display: block;
+}    
+.dropdown-content:hover{
+    border: 1px solid black;
+}
+#drop{
+    display: inline-block;
+}
+
