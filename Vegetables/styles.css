@@ -190,3 +190,248 @@ body{
     font-weight: 500;
     Color: #8b8b99;
 }
+#section4{
+    text-align: center;
+    width: 100%;
+    height: 690px;
+    background-color: white;
+}
+#section4 > h3{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat';
+    margin: 0;
+    padding-top: 35px;
+    font-weight: lighter;  
+}
+#section4 > h2{
+    font-family: 'Poppins';
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+#section4 > p{
+    position: relative;
+    left: 470px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    Color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+    width: 600px;
+}
+#testemonies{
+    height: auto;
+    width: 100;
+    text-align: center;
+}
+.testemony{
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin:30px 30px;
+    padding: 20px 20px;
+}
+.testemony > img{
+    border-radius: 50%;
+    width: 80px;
+}
+.testemony > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: Italic;
+    Color: #8b8b99;
+}
+.testemony > h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;}
+.testemony > h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    Color: #8b8b99;
+    font-style: Italic;
+}
+#section5{
+    width: 100%;
+    height: 690px;
+    margin: 0;
+}
+#section5 > #fraise {
+    height: 100%;
+    overflow: hidden;
+    width: 70%;
+}
+#section5 > #form{
+    width: 30%;
+    height: 89%;
+    overflow: hidden;
+    text-align: left;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    text-align: center;
+    padding-top: 80px;
+    
+}
+#form > h1{
+    font-family: 'Poppins';
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#form > p{
+    font-family: 'Poppins';
+    color: #8b8b99;
+    font-size: 14px;
+    margin-bottom: 90px;
+}
+#email{
+    border-radius: 6px;
+    border: 0px;
+    font-size: 21px;
+    width: 250px;
+    height: 40px;
+}
+#subscribe{
+    color: white;
+    border-radius: 8px;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: bolder;
+    background-color: #f69dad;
+}
+#form,#fraise{
+    float: left;
+}
+#section6{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 270px;
+    background-color: #fafaff;
+}
+.stats{
+    font-family: 'Poppins';
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+}
+.stats > h1 {
+    font-size: 45px;
+}
+.stats > h3 {
+    font-size: 23px;
+    color: #5acda6;
+}
+#section7{
+    text-align: center;
+    width: 100%;
+    height: 690px;
+    margin: 0;
+    background-color: white;
+}
+#section7 > h1{
+    padding-top: 50px;
+    font-family: 'Poppins';
+    font-size: 45px;
+    color: #8b8b99;
+    line-height: 10px;
+    letter-spacing: 2.5;
+    font-weight: 500;
+    padding-bottom: 100px;
+}
+#section8{
+    width: 100%;
+    height: 800px;
+    margin-left:0px;
+    margin-top: 0;
+}
+.container{
+    width: 40%;
+    padding: 20px;
+    text-align: left;
+    float: left;
+    font-family: 'Poppins';
+}
+.container > h3{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat',cursive;
+    margin: 0;
+    padding-top: 35px;
+    font-weight: lighter;  
+}
+.container > h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.container > p{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    Color: #8b8b99;
+}
+.container > h2{
+    font-size: 30px;
+    font-weight: 650;
+}
+
+#message{
+    overflow: hidden;
+    position: relative;
+    right: 3px;
+    padding-left: 20px;
+    font-size: 19px;
+    height: 100px;
+    border-radius: 8px;
+    width: 85%;
+    margin-bottom: 13px;
+    border: 1px solid grey;
+}
+#submit{
+    color: white;
+    border-radius: 8px;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(170, 210, 54);
+    border: 0;
+}
+.form{
+    position: relative;
+    right: 23px;
+    padding: 10px;
+    font-family: 'Poppins';
+    width: 85%;
+    height: 25px;
+    margin: 20px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+#contact{
+    margin-left: 150px;
+}
+footer{
+    display: flex;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    height: 80px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+    
