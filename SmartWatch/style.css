@@ -1,0 +1,165 @@
+#nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(11, 11, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#nav-bar > img {
+    padding-top: 20px;
+    width: 120px;
+    height: 40px;
+    background: transparent;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+main{
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.main-main > img{
+    position: relative;
+    
+    width: 55%;
+    height: 100%;
+    margin: 0;
+}
+.main-main{
+    padding: 0;
+    
+}
+#main-content {
+    display: flex;
+    align-items: center;
+    
+}
+#right{
+    position: relative;
+    right: 400px;
+    top: -30px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+h2{
+    font-size: 22px;
+    padding-bottom: 12px;}
+p{
+    font-size: 12px;
+    color: rgb(140, 135, 135);
+    letter-spacing: 0.5;
+}
+input{
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+button{
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+#buy{
+    margin-top: 10px;
+    padding: 18px;
+
+}
+#Time{
+    padding: 5px;
+    width: 80px;
+}
+#Time:hover{
+    cursor: pointer;
+}
+#Heart-Rate{
+    padding: 5px;
+    width: 151px;
+}
+#Heart-Rate:hover{
+    cursor: pointer;
+}
+#colors{
+    display: flex;
+    
+}
+.color{
+    position: relative;
+    right: 10px;
+    border-radius: 8px;
+    border: 1px solid;
+    margin: 10px;
+    width: 50px;
+    height: 40px;
+}
+#color1{
+    background-color: black;
+}
+#color2{
+   background-color: #ca3d22;
+}
+#color3{
+    background-color: #8a5362;
+}
+#color4{
+    background-color: #565681;
+}
+
+.color:hover{
+    cursor: pointer;
+}
+
+
+#clock{
+    color: white;
+    position: relative;
+    top: -300px;
+    left: 149px;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+#heart > img{
+    background: transparent;
+    width: 55px;
+    height: 55px;
+    margin: 0;
+    padding-bottom: 0;
+    transition: all ease-in-out ;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#heart{
+    display: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -280px;
+    left: -195px;
+    color: white;
+}
+
+#heart > h1 {
+    font-size: 25px;
+}
